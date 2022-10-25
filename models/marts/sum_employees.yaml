@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: sum_employees
+    description: sum of every restaurant of Norbert
+
+    columns:
+      - name: sum_employees
+        description: sum of every restaurant of Norbert
