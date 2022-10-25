@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: best_ca_restaurant
+    description: This table contains the CA of every restaurant
+
+    columns:
+      - name: CA
+        description: CA of each restaurant
+
+      - name: NAME
+        quote: true
+        description: The restaurant that make the money
+        tests:
+          - not_null
