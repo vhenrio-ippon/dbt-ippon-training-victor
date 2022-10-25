@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: all_orders
+    schema: source
+    tables:
+      - name: orders
