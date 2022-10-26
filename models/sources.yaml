@@ -1,7 +1,8 @@
 version: 2
 
 sources:
-  - name: all_orders
+  - name: restaurants_sources
     schema: source
     tables:
       - name: orders
+      - name: dishes
