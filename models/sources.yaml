@@ -5,4 +5,16 @@ sources:
     schema: source
     tables:
       - name: orders
+        columns:
+          - name: identifier
+            description: Primary key for restaurants
+            tests:
+              - unique
+              - not_null
       - name: dishes
+        columns:
+          - name: identifier
+            description: Primary key for restaurants
+            tests:
+              - unique
+              - not_null
