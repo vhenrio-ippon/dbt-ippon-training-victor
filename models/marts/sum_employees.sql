@@ -1,1 +1,1 @@
-select sum(NB_EMPLYEES) as sum_employees from DB_VHENRIO_DEV.DBT_VHENRIO.RESTAURANTS
+select sum(NB_EMPLYEES) as sum_employees from {{ ref('restaurants')}}
